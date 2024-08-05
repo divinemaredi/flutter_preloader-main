@@ -16,7 +16,7 @@ overlay.style.cssText = `
 
 const svgImage = document.createElement('img');
 svgImage.id = 'svgImage';
-svgImage.src = 'https://cdn.jsdelivr.net/gh/divinemaredi/flutter_preloader/loadingtext.svg';
+svgImage.src = 'https://cdn.jsdelivr.net/gh/divinemaredi/flutter_preloader-main/loadingtext.svg';
 svgImage.style.cssText = `
     max-width: 100%;
     max-height: 100%;
@@ -24,7 +24,7 @@ svgImage.style.cssText = `
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) translateY(20px);
 `;
 svgImage.style.display = 'none';
 
